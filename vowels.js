@@ -1,5 +1,5 @@
 function removeVowels(str) {
-  return str.replace(/[aeiou]/g, "");
+  return str.replace(/[aeiou]/gi, "");
 }
 
-console.log(removeVowels("Hello") === "Hll");
+console.log(removeVowels("HelloOOOO") === "Hll");
